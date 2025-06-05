@@ -1,21 +1,49 @@
+/* Apply general styles to the whole page */
 body {
-color: rgb(10, 76, 76);
-background-color: rgb(61, 205, 183);
+    color: rgb(10, 76, 76);
+    background-color: rgb(61, 205, 183);
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+}
 
+/* Label styling */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
 }
-.for {
-    color: rgb(10, 76, 76);
-    background-color: rgb(61, 205, 183);
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #0a4c4c;
+    border-radius: 4px;
+    background-color: #f0fdfa;
+    color: #0a4c4c;
 }
-.type {
-    color: rgb(10, 76, 76);
-    background-color: rgb(61, 205, 183);
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #0a4c4c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-.id {
-    color: rgb(10, 76, 76);
-    background-color: rgb(61, 205, 183);
+
+button:hover {
+    background-color: #063b3b;
 }
-.name {
-    color: rgb(10, 76, 76);
-    background-color: rgb(61, 205, 183);
+
+/* Result text */
+#result {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
 }
