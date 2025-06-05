@@ -7,19 +7,25 @@
     <script src="test.js" defer></script> <!-- Link to JS -->
 </head>
 <body>
+    <div class="converter-container">
+        <form id="converter-form">
+            <label for="from_input">From Currency</label>
+            <input type="text" id="from_input" name="from" required />
 
-    <label for="from_input">From Currency</label>
-    <input type="text" id="from_input" name="from" required />
+            <label for="to_input">To Currency</label>
+            <input type="text" id="to_input" name="to" required />
 
-    <label for="to_input">To Currency</label>
-    <input type="text" id="to_input" name="to" required />
+            <label for="amount_input">Amount</label>
+            <input type="number" id="amount_input" name="amount" required />
 
-    <label for="amount_input">Amount</label>
-    <input type="number" id="amount_input" name="amount" required />
+            <button type="submit">Convert</button>
 
-    <button onclick="converter()">Convert</button>
+            <p id="result"></p>
+        </form>
+    </div>
+</body>
+</html>
 
-    <p id="result"></p> <!-- Result shows here -->
 
 </body>
 </html>
